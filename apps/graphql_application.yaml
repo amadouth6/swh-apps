@@ -13,7 +13,9 @@ spec:
   source:
     repoURL: https://github.com/amadouth6/swh-apps.git
     targetRevision: HEAD
-    path: apps/swh-graphql/
+    path: apps/
+    directory:
+      recurse: true
 
  
   syncPolicy:
